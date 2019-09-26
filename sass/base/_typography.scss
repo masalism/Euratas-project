@@ -1,0 +1,26 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 1.7rem;
+    font-size: 1.6rem;
+}
+
+.heading-1 {
+    font-family: 'Akronim', cursive;
+    font-size: 12rem;
+    font-weight: 100;
+    letter-spacing: 0.75rem;
+    margin-top: 11rem;
+    border-bottom: 3px solid $white;
+    display: inline-block;
+    animation: moveInLeft 1s ease-in-out .5s backwards;
+
+    &__blue {
+        color: $blue;
+    }
+    
+    &__yellow {
+        color: $yellow;
+    }
+}
+

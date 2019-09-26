@@ -1,0 +1,14 @@
+.header {
+    background: url(/img/header-img.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: block;
+    background-position: center;
+
+    &__text {
+        font-size: 5rem;
+        padding-top: 3.5rem;
+        animation: moveInLeft 1s ease-in-out 1s backwards;
+        line-height: 4rem;
+    }
+}

@@ -1,0 +1,97 @@
+.euratas-nav {
+    background: rgba($black, .7);
+    padding: 2rem;
+    &__brand {
+        font-family: 'Akronim', cursive;
+        font-size: 3rem;
+        font-weight: 100;
+        animation: moveInLeft 1s ease-in-out;
+    
+        &--blue {
+            color: $blue;
+        }
+        
+        &--yellow {
+            color: $yellow;
+        }
+    }
+
+    &__item {
+        padding: 0 1.5rem;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+        list-style: none;
+
+        &--anim-1 {
+            animation: moveInLeft ease-in-out .6s backwards;
+        }
+        &--anim-2 {
+            animation: moveInLeft ease-in-out .7s backwards;
+        }
+        &--anim-3 {
+            animation: moveInLeft ease-in-out .8s backwards;
+        }
+        &--anim-4 {
+            animation: moveInLeft ease-in-out .9s backwards;
+        }
+        &--anim-5 {
+            animation: moveInLeft ease-in-out 1s backwards;
+        }
+
+        &--yellow {
+            color: $yellow;
+            backface-visibility: hidden;
+            transition: all .4s;   
+            &:hover {
+                transform: translateX(-0.2rem) translateY(-0.5rem);
+                color: $yellow-light;
+            }
+        }
+
+        &--blue {
+            color: $blue;
+            backface-visibility: hidden;
+            transition: all .4s;
+            &:hover {
+                transform: translateX(-0.2rem) translateY(-0.5rem);
+                color: $blue-light;
+            }
+        }
+
+        &--white {
+            color: $white;
+            backface-visibility: hidden;
+            transition: all .4s;
+            &:hover {
+                transform: translateX(-0.2rem) translateY(-0.5rem);
+                color: $grey-light;
+            }
+        }
+    }
+
+    // &__item--blue {
+    //     font-size: 1.7rem;
+    //     padding: 0 2rem;
+
+    // }
+}
+
+.line1, .line2, .line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+}
+  
+.change .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+  
+.change .line2 {
+    opacity: 0;
+}
+  
+.change .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}

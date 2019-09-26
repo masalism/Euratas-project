@@ -3,28 +3,78 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Akronim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <title>Euratas.lt</title>
 </head>
 
 <body>
 
-    
+    <!-- header -->
+    <header class="header">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top euratas-nav">
+            <a href="#" alt="Euratas.lt brand" class="navbar-brand euratas-nav__brand"><span
+                    class="euratas-nav__brand--blue">EU</span><span class="euratas-nav__brand--yellow">RATAS</span><span
+                    class="text-white">.LT</span>
+            </a>
+            <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#euratasNavbar" aria-controls="euratasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="bg-light line1"></div>
+                <div class="bg-light line2"></div>
+                <div class="bg-light line3"></div>
+            </button>
+
+            <div class="collapse navbar-collapse text-white justify-content-end text-uppercase" id="euratasNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item euratas-nav__item euratas-nav__item--anim-1">
+                        <a href="#" class="nav-link euratas-nav__item--blue">Montavimas - balansavimas</a>
+                    </li>
+                    <li class="nav-item euratas-nav__item euratas-nav__item--anim-2">
+                        <a href="#" class="nav-link euratas-nav__item--yellow">Ratų taisymas</a>
+                    </li>
+                    <li class="nav-item euratas-nav__item euratas-nav__item--anim-3">
+                        <a href="#" class="nav-link euratas-nav__item--yellow">Padangos</a>
+                    </li>
+                    <li class="nav-item euratas-nav__item euratas-nav__item--anim-4">
+                        <a href="#" class="nav-link euratas-nav__item--yellow">Pramogos</a>
+                    </li>
+                    <li class="nav-item euratas-nav__item euratas-nav__item--anim-5">
+                        <a href="#" class="nav-link euratas-nav__item--white">Kontaktai</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- end of navbar -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-1 col pt-5 text-lg-left text-center">
+                    <h1 class="heading-1 text-white"><span class="heading-1__blue">EU</span><span
+                            class="heading-1__yellow">RATAS</span><span class="text-white">.LT</span></h1>
+                    <p class="text-white lead header__text">Geriausia vieta keisti ratus</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
