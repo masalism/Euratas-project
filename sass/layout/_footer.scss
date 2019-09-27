@@ -1,0 +1,18 @@
+.footer {
+    background-color: $grey-dark;
+
+    &__address {
+        font-size: 1.7rem;
+        font-weight: 500;
+
+    }
+
+    &__text {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+}
+
+.copy-bg {
+    background-color: $black;
+}
