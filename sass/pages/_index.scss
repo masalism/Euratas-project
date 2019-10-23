@@ -1,0 +1,10 @@
+.taisymas {
+    background-color: $grey-light-2;
+}
+
+.padangos {
+    background-image: linear-gradient(rgba($black, .7), rgba($black, .7)), url(/img/padangos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

@@ -63,6 +63,12 @@ body {
   .footer__text {
     font-size: 1.7rem;
     font-weight: 500; }
+  .footer__icon {
+    font-size: 6rem;
+    backface-visibility: hidden;
+    transition: all .2s; }
+    .footer__icon:hover {
+      color: #3b5998; }
 
 .copy-bg {
   background-color: #000; }
@@ -147,3 +153,12 @@ body {
     padding-top: 3.5rem;
     animation: moveInLeft 1s ease-in-out 1s backwards;
     line-height: 4rem; }
+
+.taisymas {
+  background-color: #f9f9f9; }
+
+.padangos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/padangos.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }

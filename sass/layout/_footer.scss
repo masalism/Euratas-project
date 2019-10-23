@@ -12,6 +12,16 @@
         font-size: 1.7rem;
         font-weight: 500;
     }
+
+    &__icon {
+        font-size: 6rem;
+        backface-visibility: hidden;
+        transition: all .2s;
+
+        &:hover {
+            color: #3b5998;
+        }
+    }
 }
 
 .copy-bg {
